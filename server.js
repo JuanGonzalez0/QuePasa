@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt');
 const path = require('path');
 const jwt = require('jsonwebtoken');
 const fs = require('fs');
-
+require('dotenv').config();
 
 const app = express();
 const server = createServer(app);
